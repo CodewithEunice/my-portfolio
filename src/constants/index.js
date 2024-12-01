@@ -20,10 +20,10 @@ import {
   starlight,
   mikecollection,
   calcImg,
-  eko,
+  ekoh,
   fit,
-
-
+aenon,
+mike,
   mimi,
   avatar,
 } from "../assets";
@@ -117,7 +117,7 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Betteroffservices Advertising Agency (Freelancing)",
+    company_name: "Betteroffservice Advertising Agency (Freelancing)",
     icon: "",
     iconBg: "#383E56",
     date: "Jan 2024 - Present",
@@ -131,24 +131,75 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Eunice has proven to be one of the best, creative and passionate Software developers  Interns in our firm",
+      "Eunice has proven to be one of the best, creative and passionate Software developer Interns in our firm.",
     name: "Tobilola"  ,
     designation: "Project Manager",
-    company: "Nxg-hub technologies",
+    company: "Nxg-hub technologies.",
     image: avatar,
   },
   {
     testimonial:
-      "After Eunice collaborated with our team to optimize our website, we gained more traffic by 70%. We can't thank her and the team enough!",
+      "Eunice collaborated with our team to build and optimize our client's fitness website, which improved our client's overall business performance by 70%. We can't thank her and the team enough!",
     name: "Mr Joshua ",
     designation: "Managing Director",
-    company: "Betteroffservice advertising Agency",
+    company: "Betteroffservice Advertising Agency.",
     image: avatar,
   },
 ];
 
 const projects = [
-  
+
+  {
+    name: "E-Shop",
+    description:
+      "E-Shop is an e-commerce web application that enables users to buy different electronic gadgets at the comfort of their homes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mike,
+    source_code_link: "",
+    live_demo_link: "https://just-electronics.onrender.com/",
+  },
+ 
+  {
+    name: "Aenon-fitness",
+    description:
+      "This is a fitness app that helps users register for gym classes.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "typeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: aenon,
+    source_code_link: "",
+    live_demo_link: "https://aenon-fitness.vercel.app/",
+  },
+
   {
     name: "Calc project",
     description:
@@ -174,9 +225,9 @@ const projects = [
   },
 
    {
-    name: "Eko hotel landing page",
+    name: "Eko hotel Landing Page",
     description:
-      "Eko Hotels & Suites is the most preferred hotel in West Africa,Located in the heart of Victoria Island.",
+      "Eko Hotel is a Luxurious hotel Located in the heart of Victoria Island, Lagos State.",
     tags: [
       {
         name: "Next.js",
@@ -188,38 +239,17 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind", 
         color: "orange-text-gradient",
       },
     ],
-    image: eko,
+    image: ekoh,
     source_code_link: "",
-    live_demo_link: "https://ekohotel.vercel.app/",
+    live_demo_link: "https://eko-oeaw.vercel.app/",
   },
 
-  {
-    name: "i-fitness",
-    description:
-      "i-fitness is a fitness app that helps users register for gym classes.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      
-      {
-        name: "typeScript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: fit,
-    source_code_link: "",
-    live_demo_link: "https://i-fitness-umber.vercel.app/",
-  },
+
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

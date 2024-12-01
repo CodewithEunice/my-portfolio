@@ -30,9 +30,10 @@ import olliepickett from "./company/olliepickett.png";
 import starlight from "./company/starlight.png";
 import calcImg from "./tech/calcImg.png";
 import mikecollection from "./mcollection.png";
-import eko from "./tech/eko.png";
-import fit from "./tech/fit.png"
-
+import ekoh from "./tech/ekoh.png";
+import fit from "./tech/fit.png";
+import mike from "./tech/mike.png";
+import aenon from "./tech/aenon.png";
 import mimi from "./mimi.jpg";
 import avatar from "./avatar.jpg";
 
@@ -57,7 +58,7 @@ export {
   redux,
   tailwind,
   typescript,
-  
+  aenon,
   shopify,
   starbucks,
   tesla,
@@ -66,9 +67,10 @@ export {
   starlight,
   mikecollection,
   calcImg,
+  mike,
   
   olliepickett,
   avatar,
-  eko,
+  ekoh,
   fit
 };
