@@ -20,10 +20,11 @@ import {
   starlight,
   mikecollection,
   calcImg,
+  dateme,
   ekoh,
   fit,
-aenon,
-mike,
+  aenon,
+  mike,
   mimi,
   avatar,
 } from "../assets";
@@ -91,7 +92,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  
+
   {
     name: "git",
     icon: git,
@@ -100,10 +101,34 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  
 ];
 
 const experiences = [
+  {
+    title: "Frontend Developer",
+    company_name: "Fiverr (Freelancing)",
+    icon: "",
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - March 2024",
+    points: [
+      "Collaborated with UX/UI designers to translate design mockups into pixel-perfect, responsive interfaces, ensuring a consistent and visually appealing user experience across devices.",
+      "Implemented server-side rendering (SSR) and static site generation (SSG) using Next.js, enhancing the application's performance and SEO capabilities",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+
+  {
+    title: "Frontend Developer",
+    company_name: "Upwork (Freelancing)",
+    icon: "",
+    iconBg: "#383E56",
+    date: "August 2024 - November 2024",
+    points: [
+      "Developed and maintained various modules of a complex web application, employing React.js/Next.js and TypeScript for the frontend and consumed .Net, Django, Spring Boot and REST APIs  ",
+      "Integrated third-party APIs and services to extend application functionalities, improving the overall user experience. ",
+    ],
+  },
+
   {
     title: "Frontend Developer",
     company_name: "Nxg-hub (Internship)",
@@ -111,19 +136,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2024 - Present",
     points: [
-      "Collaborated with UX/UI designers to translate design mockups into pixel-perfect, responsive interfaces, ensuring a consistent and visually appealing user experience across devices.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Betteroffservice Advertising Agency (Freelancing)",
-    icon: "",
-    iconBg: "#383E56",
-    date: "Jan 2024 - Present",
-    points: [
-      "Joined the Frontend team to Develop and maintain various modules of a complex web application, employing React.js/Next.js and TypeScript for the frontend and also consumed .Net, and REST APIs  ",
-      
+      "Collaborated with the team to build a financial payment app, using plain React/tailwind for the Frontend.",
+      "Implemented responsiveness and ensured cross-browser compatibility.",
     ],
   },
 ];
@@ -131,24 +145,31 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Eunice has proven to be one of the best, creative and passionate Software developer Interns in our firm.",
-    name: "Tobilola"  ,
+      "Eunice has proven to be one of the most diligent and passionate Software developer Interns in our firm.",
+    name: "Tobilola",
     designation: "Project Manager",
     company: "Nxg-hub technologies.",
     image: avatar,
   },
   {
     testimonial:
-      "Eunice collaborated with our team to build and optimize our client's fitness website, which improved our client's overall business performance by 70%. We can't thank her and the team enough!",
-    name: "Mr Joshua ",
-    designation: "Managing Director",
-    company: "Betteroffservice Advertising Agency.",
+      "Eunice is one of the passionate and creative Software developers in Fiverr",
+    name: "James Kelvin",
+    designation: "Digital Marketer",
+    company: "Headstart",
+    image: avatar,
+  },
+  {
+    testimonial:
+      "Working with Eunice was really amazing, she's so passionate and good at what she does.",
+    name: "Andrew Cross",
+    designation: "Senior Developer",
+    company: "Pentagon",
     image: avatar,
   },
 ];
 
 const projects = [
-
   {
     name: "E-Shop",
     description:
@@ -175,7 +196,7 @@ const projects = [
     source_code_link: "",
     live_demo_link: "https://just-electronics.onrender.com/",
   },
- 
+
   {
     name: "Aenon-fitness",
     description:
@@ -185,7 +206,7 @@ const projects = [
         name: "Next.js",
         color: "blue-text-gradient",
       },
-      
+
       {
         name: "typeScript",
         color: "pink-text-gradient",
@@ -199,17 +220,38 @@ const projects = [
     source_code_link: "",
     live_demo_link: "https://aenon-fitness.vercel.app/",
   },
+  {
+    name: "Dateme",
+    description:
+      "Dateme is a web dating application that allows users from different countries or continent to find love, make friends and meet new people. It makes it easier to find soul mate ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dateme,
+    source_code_link: "",
+    live_demo_link: "http://dateme.onrender.com",
+  },
 
   {
     name: "Calc project",
-    description:
-      "This is a simple calculator.",
+    description: "This is a simple calculator.",
     tags: [
       {
         name: "html",
         color: "blue-text-gradient",
       },
-      
+
       {
         name: "css",
         color: "pink-text-gradient",
@@ -223,33 +265,6 @@ const projects = [
     source_code_link: "",
     live_demo_link: "https://new-calc-project.vercel.app/",
   },
-
-   {
-    name: "Eko hotel Landing Page",
-    description:
-      "Eko Hotel is a Luxurious hotel Located in the heart of Victoria Island, Lagos State.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      
-      {
-        name: "typeScript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind", 
-        color: "orange-text-gradient",
-      },
-    ],
-    image: ekoh,
-    source_code_link: "",
-    live_demo_link: "https://eko-oeaw.vercel.app/",
-  },
-
-
- 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

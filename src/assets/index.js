@@ -21,7 +21,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -31,6 +30,7 @@ import starlight from "./company/starlight.png";
 import calcImg from "./tech/calcImg.png";
 import mikecollection from "./mcollection.png";
 import ekoh from "./tech/ekoh.png";
+import dateme from "./tech/dateme.png";
 import fit from "./tech/fit.png";
 import mike from "./tech/mike.png";
 import aenon from "./tech/aenon.png";
@@ -63,14 +63,14 @@ export {
   starbucks,
   tesla,
   mimi,
+  dateme,
   onet,
   starlight,
   mikecollection,
   calcImg,
   mike,
-  
   olliepickett,
   avatar,
   ekoh,
-  fit
+  fit,
 };

@@ -41,13 +41,13 @@ const About = () => {
       >
         I'm a creative and skilled software developer with experience in
         JavaScript and TypeScript, and expertise in frameworks and library such
-        as React, Nextjs,  Tailwind css. I also use
-        Redux toolkit and Context api for global state management, React query
-        for server state management. I also have good knowledge of Git & Github
-        cause i use Git daily to track code changes and to collaborate with
-        other developers on Github. I'm a fast learner and i always work closely
-        with clients to create scalable and user-friendly applications. Let's
-        work together to bring your ideas to reality!
+        as React, Nextjs, Node.js, Express.js, Tailwind css and Bootstrap. I
+        also use Redux toolkit and Context api for global state management,
+        React query for server state management. I also have good knowledge of
+        Git & Github cause i use Git daily to track code changes and to
+        collaborate with other developers on Github. I'm a fast learner and i
+        always work closely with clients to create scalable and user-friendly
+        applications. Let's work together to bring your ideas to reality!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
